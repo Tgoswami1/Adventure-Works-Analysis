@@ -1,1 +1,67 @@
 # Adventure-Works-Analysis
+# Adventure Works Sales Analysis Using SQL & Power BI
+
+#About Data:
+
+Adventure Works is a large multinational manufacturing company that produces and distributes bicycles, parts, and accessories for commercial markets in North America, Europe, and Asia. Additionally, Adventure works employ several regional sales teams throughout its market base.
+
+The database used for this project is a Microsoft Datawarehouse AdventureWorksDW2019.bak and would be a good one to work on. Working on the entire project phase would help you improve your data analysis skills. Am unable to upload the full "AdventureWorks Data Warehouse version 2019" file (99 MB) here. Here is the download link to the original dataset on Microsoft' 
+
+
+https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms
+
+
+
+
+In this Sales Analysis Report, I provided insights like:
+
+* The current market demand for our products and how it varies by region or continent.
+
+* The current sales performance and how  it compare to the past performance and industry benchmarks.
+
+* The most loyal customers in terms total sales and orders made.
+
+
+Project steps:
+
+*Install Database backup
+
+* Read though requirements and prepare user story
+
+* Identify required tables
+
+* Clean tables 
+
+* Connect to CSVs in Power Query
+
+* Data transformation in Power Query
+
+* Data Modeling
+
+* Create measures
+
+* Data Visualization
+
+
+
+
+**Project Guide**
+
+I clean the AdventureWorks dataset with SQL, then visualise it as an interactive 3-page dashboard with Power BI.
+
+The 4 CSV data tables are the output of the SQL queries, where I clean the tables by sorting and exporting only those columns which are needed for visualisation in Power BI. 
+
+Once the cleaned data tables have been exported as CSVs, I import the 4 CSVs and the Excel worksheet into Power BI, where I link the tables together in the "Model" side tab:
+
+I then further process the data in Power Query ("Transform data" on the Home tab), renaming columns, changing columns' data type etc. and bring the columns into a format suitable for visualisation.
+
+Finally, I visualise the data as an interactive 3-page dashboard in PowerBI. I also export a static version of the dashboard as a PDF.
+
+
+**Project Files**
+
+There are 3 project files (1 SQL, 1 Power BI and 1 PDF) and 5 data table files (4 CSVs and 1 Excel Worksheet)
+
+
+
+
